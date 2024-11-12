@@ -17,8 +17,7 @@ const config = {
 
 		csp: {
 			directives: {
-				"script-src": ["self", "nonce"],
-				"style-src": ["self", "nonce"],
+				"script-src": ["self", "blob:"],
 				"img-src": ["self", "data:"],
 				"frame-src": ["none"],
 				"frame-ancestors": ["none"],				
